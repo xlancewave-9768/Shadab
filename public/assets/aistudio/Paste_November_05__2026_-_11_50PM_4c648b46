@@ -1,0 +1,1650 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123d30">
+<title>Er. Shadab Anwar | Marriage Profile</title>
+<meta name="description" content="Marriage profile of Er. Shadab Anwar, B.Tech Mechanical Engineer and Design Engineer.">
+
+<!-- Premium Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --green: #123d30;
+    --green2: #1c5943;
+    --gold: #c9a45e;
+    --cream: #f8f5ec;
+    --white: #fffefa;
+    --text: #263b32;
+    --muted: #77796e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin: auto;
+}
+
+/* NAVIGATION */
+
+nav {
+    background: rgba(18,61,48,.96);
+    color: white;
+    padding: 16px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(201,164,94,.4);
+}
+
+.logo {
+    color: var(--gold);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul a {
+    font-size: 13px;
+    transition: .3s;
+}
+
+nav ul a:hover {
+    color: var(--gold);
+}
+
+.menu-btn {
+    display: none;
+    border: 0;
+    color: white;
+    background: transparent;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 680px;
+    background:
+    radial-gradient(circle at 50% 40%, rgba(47,104,73,.6), transparent 50%),
+    linear-gradient(135deg,#0c2e24,#164b37,#0b2b22);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 75px 20px;
+}
+
+.hero::before,
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgba(201,164,94,.22);
+    transform: rotate(45deg);
+}
+
+.hero::before {
+    left: -220px;
+    top: 20%;
+}
+
+.hero::after {
+    right: -220px;
+    bottom: 10%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    animation: heroIn 1.3s ease both;
+}
+
+@keyframes heroIn {
+    from {opacity: 0; transform: translateY(35px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.bismillah {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: clamp(26px, 5vw, 43px);
+    color: #f0d99d;
+    margin-bottom: 28px;
+    direction: rtl;
+}
+
+.hero-label {
+    font-size: 11px;
+    letter-spacing: 5px;
+    color: #dfc48a;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(44px, 8vw, 78px);
+    font-weight: 600;
+    margin: 20px 0 10px;
+    color: #fff9eb;
+}
+
+.hero h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #e5d6b3;
+    letter-spacing: 2px;
+}
+
+.gold-line {
+    width: 100px;
+    height: 2px;
+    background: var(--gold);
+    margin: 28px auto;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #e4e9df;
+    line-height: 1.8;
+}
+
+.hero-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    border: 1px solid var(--gold);
+    color: #f5dda5;
+    border-radius: 40px;
+    transition: .3s;
+    font-size: 13px;
+}
+
+.hero-btn:hover {
+    background: var(--gold);
+    color: var(--green);
+}
+
+/* COMMON SECTION */
+
+section {
+    padding: 85px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-heading span {
+    color: #a17d3f;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.section-heading h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(34px, 5vw, 47px);
+    color: var(--green);
+    margin-top: 10px;
+}
+
+.section-heading p {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* INTRODUCTION */
+
+.intro {
+    background: var(--cream);
+}
+
+.intro-card {
+    background: white;
+    border: 1px solid #e7d9b9;
+    padding: 35px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 15px 45px rgba(33,55,39,.06);
+}
+
+.profile-photo {
+    height: 310px;
+    background: linear-gradient(145deg,#e8e0cb,#d7dfd2);
+    border: 5px solid #e3d0a4;
+    border-radius: 130px 130px 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #617265;
+    text-align: center;
+    font-size: 13px;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-info h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    color: var(--green);
+    margin-bottom: 8px;
+}
+
+.intro-info .designation {
+    color: #a17d3f;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.info-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+}
+
+.info-item {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee8da;
+}
+
+.info-item small {
+    color: #99917d;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.info-item strong {
+    font-size: 13px;
+    color: var(--green);
+    font-weight: 600;
+}
+
+/* CAREER */
+
+.career {
+    background: white;
+}
+
+.timeline {
+    max-width: 750px;
+    margin: auto;
+    border-left: 2px solid var(--gold);
+    padding-left: 35px;
+}
+
+.timeline-card {
+    position: relative;
+    background: #faf8f1;
+    border: 1px solid #e9dfc7;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 22px;
+}
+
+.timeline-card::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: var(--gold);
+    border: 3px solid white;
+    border-radius: 50%;
+    left: -44px;
+    top: 28px;
+    box-shadow: 0 0 0 2px var(--gold);
+}
+
+.timeline-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    color: var(--green);
+}
+
+.timeline-card p {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 8px;
+}
+
+/* FAMILY */
+
+.family {
+    background: #f2efe5;
+}
+
+.parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.parent-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 14px;
+    text-align: center;
+    border-bottom: 3px solid var(--gold);
+    box-shadow: 0 10px 30px rgba(0,0,0,.04);
+}
+
+.parent-card .symbol {
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.parent-card h3 {
+    color: var(--green);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+.parent-card p {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.family-summary {
+    text-align: center;
+    margin: 30px auto 35px;
+    color: var(--green);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+/* FAMILY MEMBER CARDS */
+
+.member-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+}
+
+.member-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #e6ddc8;
+    transition: .35s;
+    position: relative;
+    overflow: hidden;
+}
+
+.member-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 35px rgba(24,66,46,.10);
+    border-color: var(--gold);
+}
+
+.member-card .number {
+    color: #c5a15d;
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 25px;
+}
+
+.member-card h3 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 24px;
+    color: var(--green);
+    margin: 5px 0;
+}
+
+.member-card p {
+    color: #77796e;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 12px;
+    color: #886b37;
+    background: #f6f0df;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 10px;
+}
+
+/* SISTERS */
+
+.sisters {
+    margin-top: 40px;
+}
+
+.sisters h3 {
+    text-align: center;
+    color: var(--green);
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.sister-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+/* CONTACT */
+
+.contact {
+    background: var(--green);
+    color: white;
+}
+
+.contact .section-heading h2 {
+    color: #fff8e8;
+}
+
+.contact .section-heading p {
+    color: #d5dfd5;
+}
+
+.contact-card {
+    max-width: 700px;
+    margin: auto;
+    padding: 35px;
+    border: 1px solid rgba(201,164,94,.6);
+    border-radius: 16px;
+    background: rgba(255,255,255,.05);
+    text-align: center;
+}
+
+.contact-card h3 {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: 30px;
+    color: #f1d99e;
+    margin-bottom: 22px;
+}
+
+.contact-link {
+    display: block;
+    margin: 14px auto;
+    font-size: 14px;
+    color: #f5f1e6;
+    overflow-wrap: anywhere;
+}
+
+.contact-link:hover {
+    color: var(--gold);
+}
+
+.contact-btn {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--green);
+    padding: 13px 27px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 22px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #0b2c22;
+    padding: 35px 15px;
+    text-align: center;
+    color: #d6c59c;
+}
+
+footer .arabic {
+    font-family: 'Noto Naskh Arabic',serif;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+footer p {
+    font-size: 11px;
+    line-height: 2;
+}
+
+/* SCROLL ANIMATION */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media(max-width:768px) {
+
+    nav {
+        padding: 14px 5%;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 58px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background: var(--green);
+        flex-direction: column;
+        gap: 18px;
+        text-align: center;
+        border-top: 1px solid var(--gold);
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .hero {
+        min-height: 610px;
+    }
+
+    section {
+        padding: 65px 0;
+    }
+
+    .intro-card {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 22px;
+    }
+
+    .profile-photo {
+        width: 210px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .intro-info h3 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .intro-info .designation {
+        text-align: center;
+    }
+
+    .info-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 10px;
+    }
+
+    .parents {
+        grid-template-columns: 1fr;
+    }
+
+    .member-grid,
+    .sister-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline {
+        padding-left: 25px;
+    }
+
+    .timeline-card::before {
+        left: -34px;
+    }
+
+    .contact-card {
+        padding: 25px 15px;
+    }
+}
+
+@media(max-width:380px) {
+    .info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-label {
+        letter-spacing: 3px;
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* =====================================
+   LUXURY ANIMATION UPGRADE
+===================================== */
+
+:root {
+    --green: #103b30;
+    --green2: #24674d;
+    --gold: #e4bd70;
+    --purple: #49305f;
+    --cream: #fff9ed;
+}
+
+/* Animated hero background */
+
+.hero {
+    background:
+        radial-gradient(ellipse at 20% 30%, #573c70 0%, transparent 38%),
+        radial-gradient(ellipse at 85% 70%, #24694e 0%, transparent 40%),
+        linear-gradient(135deg,#091e1b,#173e32,#342346,#102d27);
+    background-size: 180% 180%;
+    animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+    0%,100% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+}
+
+/* Golden glowing circles */
+
+.hero::before,
+.hero::after {
+    width: 320px;
+    height: 320px;
+    border: 1px solid rgba(228,189,112,.35);
+    border-radius: 50%;
+    box-shadow:
+        0 0 35px rgba(228,189,112,.15),
+        inset 0 0 35px rgba(228,189,112,.10);
+    animation: orbit 18s linear infinite;
+}
+
+.hero::after {
+    animation-direction: reverse;
+    width: 240px;
+    height: 240px;
+}
+
+@keyframes orbit {
+    from {transform: rotate(0deg) scale(1);}
+    50% {transform: rotate(180deg) scale(1.15);}
+    to {transform: rotate(360deg) scale(1);}
+}
+
+/* Bismillah glow */
+
+.bismillah {
+    text-shadow:
+        0 0 15px rgba(228,189,112,.5),
+        0 0 35px rgba(228,189,112,.3);
+    animation: bismillahGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes bismillahGlow {
+    from {opacity:.75; transform: translateY(0);}
+    to {opacity:1; transform: translateY(-7px);}
+}
+
+/* Animated name */
+
+.hero h1 {
+    background: linear-gradient(
+        90deg,#fff8e5,#d9ad5d,#ffffff,#e7c57d
+    );
+    background-size: 250% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: goldText 5s linear infinite;
+    text-shadow: none;
+}
+
+@keyframes goldText {
+    to {background-position: 250% center;}
+}
+
+/* Hero label */
+
+.hero-label {
+    display: inline-block;
+    border: 1px solid rgba(228,189,112,.5);
+    border-radius: 30px;
+    padding: 10px 20px;
+    background: rgba(255,255,255,.06);
+    backdrop-filter: blur(10px);
+}
+
+/* Gold button */
+
+.hero-btn {
+    background: linear-gradient(110deg,#c29446,#f4dda1,#bd8d40);
+    background-size: 200% auto;
+    color: #173d30;
+    font-weight: 700;
+    box-shadow: 0 8px 30px rgba(228,189,112,.22);
+    transition: .4s;
+    animation: buttonGlow 3s infinite;
+}
+
+.hero-btn:hover {
+    transform: translateY(-5px) scale(1.04);
+    background-position: right center;
+    box-shadow: 0 12px 35px rgba(228,189,112,.4);
+}
+
+@keyframes buttonGlow {
+    50% {box-shadow: 0 0 25px rgba(228,189,112,.45);}
+}
+
+/* Profile photo */
+
+.profile-photo {
+    position: relative;
+    border: 4px solid var(--gold);
+    box-shadow:
+        0 0 0 7px rgba(201,164,94,.13),
+        0 15px 40px rgba(32,75,49,.2);
+    animation: photoFloat 4s ease-in-out infinite;
+}
+
+@keyframes photoFloat {
+    0%,100% {transform: translateY(0);}
+    50% {transform: translateY(-9px);}
+}
+
+/* Section backgrounds */
+
+.intro {
+    background:
+        radial-gradient(circle at 10% 20%,#eee1f0,transparent 35%),
+        linear-gradient(135deg,#fffaf0,#f1f3e9);
+}
+
+.career {
+    background:
+        radial-gradient(circle at 90% 10%,#f0e4d1,transparent 35%),
+        #ffffff;
+}
+
+.family {
+    background:
+        radial-gradient(circle at 10% 15%,#e8ddf0,transparent 35%),
+        radial-gradient(circle at 90% 85%,#dceadd,transparent 35%),
+        #f5f0e7;
+}
+
+/* Glass effect cards */
+
+.intro-card,
+.parent-card,
+.member-card,
+.timeline-card {
+    box-shadow: 0 12px 35px rgba(28,65,46,.08);
+    transition: transform .45s, box-shadow .45s;
+}
+
+.intro-card {
+    border-radius: 25px;
+    border: 1px solid #e3c990;
+}
+
+.member-card {
+    background: linear-gradient(145deg,#ffffff,#faf3e7);
+    border-radius: 18px;
+    border-top: 3px solid #c8a15a;
+}
+
+.member-card:nth-child(even) {
+    background: linear-gradient(145deg,#ffffff,#f0eaf5);
+    border-top-color: #80629b;
+}
+
+.member-card:hover,
+.parent-card:hover,
+.timeline-card:hover {
+    transform: translateY(-10px) scale(1.015);
+    box-shadow: 0 20px 45px rgba(37,65,45,.15);
+}
+
+/* Number styling */
+
+.member-card .number {
+    display: inline-flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#e7c47c,#fff0c8);
+    color: #49351c;
+    margin-bottom: 12px;
+}
+
+/* Section headings */
+
+.section-heading h2 {
+    background: linear-gradient(90deg,#164b36,#8b6330,#553a6c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Parent cards */
+
+.parent-card:first-child {
+    border-top: 3px solid #bd9149;
+}
+
+.parent-card:last-child {
+    border-top: 3px solid #80629b;
+}
+
+/* Timeline */
+
+.timeline-card {
+    border-left: 4px solid #c9a45e;
+    background: linear-gradient(110deg,#fffdf7,#f5f0e8);
+}
+
+/* Contact area */
+
+.contact {
+    background:
+        radial-gradient(circle at 20% 20%,#49305f,transparent 40%),
+        linear-gradient(135deg,#0a2a21,#164b37,#332345);
+}
+
+.contact-card {
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 45px rgba(0,0,0,.15);
+    border-radius: 25px;
+}
+
+.contact-btn {
+    background: linear-gradient(110deg,#d0a452,#f4d994);
+    transition: .3s;
+    box-shadow: 0 7px 25px rgba(228,189,112,.2);
+}
+
+.contact-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(228,189,112,.4);
+}
+
+/* More attractive scroll animations */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(55px) scale(.97);
+    filter: blur(5px);
+    transition:
+        opacity .9s ease,
+        transform .9s cubic-bezier(.2,.8,.2,1),
+        filter .9s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+}
+
+/* Mobile adjustments */
+
+@media(max-width:768px) {
+    .hero {
+        min-height: 650px;
+    }
+
+    .hero::before {
+        left: -250px;
+    }
+
+    .hero::after {
+        right: -200px;
+    }
+
+    .member-card:hover {
+        transform: translateY(-4px);
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    *,*::before,*::after {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        filter: none;
+        transform: none;
+    }
+}
+
+
+/* WELCOME INTRO SCREEN */
+
+body.intro-active {
+    overflow: hidden;
+}
+
+#welcomeScreen {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    background:
+        radial-gradient(circle at 20% 20%,#50365e,transparent 40%),
+        radial-gradient(circle at 80% 80%,#1c6448,transparent 45%),
+        linear-gradient(135deg,#071d18,#153e30,#241d32);
+
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+#welcomeScreen.exit {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.welcome-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 650px;
+    animation: welcomeAppear 1.5s ease both;
+}
+
+@keyframes welcomeAppear {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(.95);
+        filter: blur(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+
+.welcome-decoration {
+    color: #e4bd70;
+    font-size: 25px;
+    letter-spacing: 15px;
+    margin-bottom: 28px;
+    animation: decorationGlow 3s infinite alternate;
+}
+
+.welcome-bismillah {
+    font-family: 'Noto Naskh Arabic',serif;
+    font-size: clamp(25px,6vw,43px);
+    line-height: 1.8;
+    color: #f4d99c;
+    direction: rtl;
+    text-shadow: 0 0 25px rgba(228,189,112,.4);
+    animation: bismillahEntry 2s ease;
+}
+
+@keyframes bismillahEntry {
+    from {opacity:0; transform:scale(.8);}
+    to {opacity:1; transform:scale(1);}
+}
+
+.welcome-line {
+    width: 110px;
+    height: 2px;
+    margin: 25px auto;
+    background: linear-gradient(90deg,transparent,#e4bd70,transparent);
+}
+
+.welcome-small {
+    color: #dfc58f;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin: 25px 0;
+}
+
+.welcome-content h1 {
+    font-family: 'Cormorant Garamond',serif;
+    color: #fff8e8;
+    font-size: clamp(48px,10vw,78px);
+    font-weight: 500;
+}
+
+.welcome-name {
+    font-family: 'Cormorant Garamond',serif;
+    font-size: clamp(30px,7vw,48px);
+    font-weight: 700;
+    margin-top: 5px;
+
+    background: linear-gradient(90deg,#fff4d5,#e4bd70,#fff7e8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    animation: nameShimmer 4s linear infinite;
+}
+
+@keyframes nameShimmer {
+    to {background-position:200% center;}
+}
+
+.welcome-description {
+    color: #e1d7c2;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    line-height: 1.8;
+}
+
+.welcome-button {
+    margin-top: 38px;
+    padding: 16px 32px;
+    border: 1px solid #e4bd70;
+    border-radius: 40px;
+    background: linear-gradient(110deg,#bd9149,#f4dda1,#bd9149);
+    background-size: 200%;
+    color: #173d30;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0 0 25px rgba(228,189,112,.25);
+    transition: .4s;
+}
+
+.welcome-button span {
+    display: inline-block;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.welcome-button:hover {
+    transform: translateY(-5px);
+    background-position: right center;
+    box-shadow: 0 0 40px rgba(228,189,112,.5);
+}
+
+.welcome-button:hover span {
+    transform: translateX(7px);
+}
+
+.welcome-footer {
+    color: #b9ad91;
+    font-size: 11px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.bottom-decoration {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+@keyframes decorationGlow {
+    from {opacity:.5; text-shadow:0 0 5px #e4bd70;}
+    to {opacity:1; text-shadow:0 0 25px #e4bd70;}
+}
+
+@media(max-width:480px) {
+    .welcome-small {
+        letter-spacing: 2px;
+        font-size: 9px;
+    }
+
+    .welcome-button {
+        padding: 15px 25px;
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    #welcomeScreen *,
+    #welcomeScreen {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+
+<!-- LUXURY WELCOME INTRO -->
+<div id="welcomeScreen">
+
+    <div class="welcome-particles"></div>
+
+    <div class="welcome-content">
+
+        <div class="welcome-decoration">✦ ❖ ✦</div>
+
+        <div class="welcome-bismillah">
+            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </div>
+
+        <div class="welcome-line"></div>
+
+        <p class="welcome-small">YOU ARE CORDIALLY INVITED TO EXPLORE</p>
+
+        <h1>Welcome</h1>
+
+        <div class="welcome-name">
+            Er. Shadab Anwar
+        </div>
+
+        <p class="welcome-description">
+            A Journey of Faith, Family & Togetherness
+        </p>
+
+        <button id="enterWebsite" class="welcome-button">
+            EXPLORE PROFILE
+            <span>→</span>
+        </button>
+
+        <p class="welcome-footer">
+            A Special Introduction
+        </p>
+
+        <div class="welcome-decoration bottom-decoration">
+            ✦ ❖ ✦
+        </div>
+
+    </div>
+</div>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+    <div class="logo">Er. Shadab Anwar</div>
+
+    <button class="menu-btn" aria-label="Open navigation"
+    aria-expanded="false" onclick="toggleMenu()">☰</button>
+
+    <ul id="navMenu">
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#career" onclick="closeMenu()">Career</a></li>
+        <li><a href="#family" onclick="closeMenu()">Family</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+
+<header class="hero" id="home">
+    <div class="hero-content">
+
+        <div class="bismillah">
+            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </div>
+
+        <div class="hero-label">A Beautiful Beginning</div>
+
+        <h1>Er. Shadab Anwar</h1>
+
+        <h2>Marriage Profile</h2>
+
+        <div class="gold-line"></div>
+
+        <p>
+            B.Tech in Mechanical Engineering<br>
+            Design Engineer | YAMAN Industry Pvt. Ltd.
+        </p>
+
+        <!--a href="#about" class="hero-btn">
+            Explore Profile ↓
+        </a-->
+
+    </div>
+</header>
+
+<!-- ABOUT -->
+
+<section class="intro" id="about">
+<div class="container">
+
+    <div class="section-heading reveal">
+        <span>Personal Details</span>
+        <h2>About Me</h2>
+        <p>A brief introduction and personal profile</p>
+    </div>
+
+    <div class="intro-card reveal">
+
+        <!-- Replace shadab.jpg with your actual photo -->
+        <div class="profile-photo">
+            <img src="shadab.jpeg"
+                 alt="Er. Shadab Anwar"
+                 onerror="this.style.display='none';this.parentElement.innerHTML='Your Profile Photo';">
+        </div>
+
+        <div class="intro-info">
+
+            <h3>Er. Shadab Anwar</h3>
+            <p class="designation">
+                Mechanical Engineer | Design Engineer
+            </p>
+
+            <div class="info-list">
+
+                <div class="info-item">
+                    <small>Date of Birth</small>
+                    <strong>25 April 1997</strong>
+                </div>
+
+                <div class="info-item">
+                    <small>Height</small>
+                    <strong>5 Feet 5 Inches</strong>
+                </div>
+
+                <div class="info-item">
+                    <small>Religion</small>
+                    <strong>Islam</strong>
+                </div>
+
+                <div class="info-item">
+                    <small>Marital Status</small>
+                    <strong>Never Married</strong>
+                </div>
+
+                <div class="info-item">
+                    <small>Mother Tongue</small>
+                    <strong>Urdu / Hindi</strong>
+                </div>
+
+                <div class="info-item">
+                    <small>Native Place</small>
+                    <strong>Samastipur, Bihar</strong>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- EDUCATION & CAREER -->
+
+<section class="career" id="career">
+<div class="container">
+
+    <div class="section-heading reveal">
+        <span>Academic & Professional Journey</span>
+        <h2>Education & Career</h2>
+        <p>Educational qualification and current profession</p>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-card reveal">
+            <h3>B.Tech – Mechanical Engineering</h3>
+            <p>
+                MRSPT University, Punjab<br>
+                Completed in 2020
+            </p>
+        </div>
+
+        <div class="timeline-card reveal">
+            <h3>Design Engineer</h3>
+            <p>
+                YAMAN Industry Pvt. Ltd.<br>
+                Working Location: Faridabad, Haryana
+            </p>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<!-- FAMILY -->
+
+<section class="family" id="family">
+<div class="container">
+
+    <div class="section-heading reveal">
+        <span>Our Roots & Values</span>
+        <h2>Family Background</h2>
+        <p>A family with a strong educational and professional background</p>
+    </div>
+
+    <!-- PARENTS -->
+
+    <div class="parents">
+
+        <div class="parent-card reveal">
+            <div class="symbol">✧</div>
+            <h3>Shami Ahmad</h3>
+            <p>Father</p>
+            <p>Retired Government School Teacher</p>
+        </div>
+
+        <div class="parent-card reveal">
+            <div class="symbol">✧</div>
+            <h3>Shamima Khatun</h3>
+            <p>Mother</p>
+            <p>Homemaker</p>
+        </div>
+
+    </div>
+
+    <div class="family-summary reveal">
+        Our Family
+        <p style="font-family:'DM Sans';font-size:13px;margin-top:10px;color:#77796e;">
+            6 Brothers (Including Groom) &nbsp; | &nbsp; 2 Sisters
+        </p>
+    </div>
+
+    <!-- BROTHERS -->
+
+    <div class="section-heading reveal">
+        <span>Family Members</span>
+        <h2>Brothers</h2>
+    </div>
+
+    <div class="member-grid">
+
+        <div class="member-card reveal">
+            <div class="number">01</div>
+            <h3>Dr. Khurshid Anwar</h3>
+            <p>MBBS, MD</p>
+            <p>Working in Kuwait</p>
+            <span class="status">Married</span>
+        </div>
+
+        <div class="member-card reveal">
+            <div class="number">02</div>
+            <h3>Maulana Meraj Anwar</h3>
+            <p>Teacher</p>
+            <p>Madrasa Islamia, Shakarpur Bharwara, Darbhanga</p>
+            <span class="status">Married</span>
+        </div>
+
+        <div class="member-card reveal">
+            <div class="number">03</div>
+            <h3>Er. Firdaus Anwar</h3>
+            <p>Civil Engineer</p>
+            <p>Akshay Infra Project, Rajasthan</p>
+            <span class="status">Married</span>
+        </div>
+
+        <div class="member-card reveal">
+            <div class="number">04</div>
+            <h3>Siraj Anwar</h3>
+            <p>Pursuing Bachelor of Physiotherapy (BPT)</p>
+            <span class="status">Married</span>
+        </div>
+
+        <div class="member-card reveal">
+            <div class="number">05</div>
+            <h3>Dr. Minhaj Anwar</h3>
+            <p>BPT, Pursuing Master of Physiotherapy (MPT)</p>
+            <span class="status">Unmarried</span>
+        </div>
+
+    </div>
+
+    <!-- SISTERS -->
+
+    <div class="sisters reveal">
+
+        <h3>Sisters</h3>
+
+        <div class="sister-grid">
+
+            <div class="member-card">
+                <h3>Kausar Parween</h3>
+                <p>Homemaker</p>
+                <span class="status">Married</span>
+            </div>
+
+            <div class="member-card">
+                <h3>Nagma Parween</h3>
+                <p>Homemaker</p>
+                <span class="status">Married</span>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+<div class="container">
+
+    <div class="section-heading reveal">
+        <span>Get In Touch</span>
+        <h2>Contact Information</h2>
+        <p>For family communication and further details</p>
+    </div>
+
+    <div class="contact-card reveal">
+
+        <h3>Er. Shadab Anwar</h3>
+
+        <a class="contact-link"
+           href="tel:+916201433381">
+           ☎ +91 6201433381
+        </a>
+
+        <a class="contact-link"
+           href="mailto:shadabanwa889@gmail.com">
+           ✉ shadabanwa889@gmail.com
+        </a>
+
+        <div class="gold-line"></div>
+
+        <p style="color:#e4d9c2;font-size:13px;line-height:2;">
+            Village – Chirotna<br>
+            Post – Salha Buzurg<br>
+            P.S. – Larjha Ghat<br>
+            District – Samastipur, Bihar – 848207
+        </p>
+
+        <a class="contact-btn"
+           href="https://wa.me/916201433381"
+           target="_blank" rel="noopener">
+           Contact on WhatsApp
+        </a>
+
+    </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="arabic">
+        وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنْفُسِكُمْ أَزْوَاجًا
+    </div>
+
+    <p>
+        May Allah bless this journey with love, peace and happiness.<br>
+        © Er. Shadab Anwar | Marriage Profile
+    </p>
+</footer>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("navMenu");
+    const button = document.querySelector(".menu-btn");
+
+    menu.classList.toggle("active");
+    button.setAttribute(
+        "aria-expanded",
+        menu.classList.contains("active")
+    );
+}
+
+function closeMenu() {
+    document.getElementById("navMenu").classList.remove("active");
+    document.querySelector(".menu-btn").setAttribute("aria-expanded","false");
+}
+
+// Scroll reveal animation
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    threshold: 0.12
+});
+
+document.querySelectorAll(".reveal").forEach(element => {
+    observer.observe(element);
+});
+
+
+
+// Floating golden particles in hero
+
+const hero = document.querySelector(".hero");
+
+for (let i = 0; i < 35; i++) {
+    const particle = document.createElement("span");
+
+    particle.style.cssText = `
+        position:absolute;
+        width:${Math.random()*4+2}px;
+        height:${Math.random()*4+2}px;
+        left:${Math.random()*100}%;
+        top:${Math.random()*100}%;
+        border-radius:50%;
+        background:#e4bd70;
+        opacity:${Math.random()*.7+.2};
+        box-shadow:0 0 12px #e4bd70;
+        pointer-events:none;
+        z-index:1;
+        animation:particleFloat ${Math.random()*8+6}s
+        ${Math.random()*5}s infinite ease-in-out;
+    `;
+
+    hero.appendChild(particle);
+}
+
+// Add particle animation
+const particleStyle = document.createElement("style");
+
+particleStyle.textContent = `
+@keyframes particleFloat {
+    0% {
+        transform:translateY(20px) translateX(0);
+        opacity:0;
+    }
+    30% {opacity:1;}
+    70% {opacity:.8;}
+    100% {
+        transform:translateY(-120px) translateX(30px);
+        opacity:0;
+    }
+}
+`;
+
+document.head.appendChild(particleStyle);
+
+
+// Welcome screen interaction
+
+document.body.classList.add("intro-active");
+
+document.getElementById("enterWebsite").addEventListener("click", function() {
+
+    const welcome = document.getElementById("welcomeScreen");
+
+    welcome.classList.add("exit");
+
+    document.body.classList.remove("intro-active");
+
+    // Scroll to top
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+    // Remove welcome screen after transition
+    setTimeout(function() {
+        welcome.remove();
+    }, 1100);
+
+});
+
+
+</script>
+
+</body>
+</html>
